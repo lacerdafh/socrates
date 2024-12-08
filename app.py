@@ -3,7 +3,8 @@ import pandas as pd
 from io import BytesIO
 
 # Caminho para o arquivo Excel
-file_path = r"C:\python\1- projeto soffia\plantoes2.xlsx"
+file_path = "https://raw.githubusercontent.com/lacerdafh/socrates/main/plantoes2.xlsx"
+
 
 # Carregar a segunda aba do Excel
 data = pd.read_excel(file_path, sheet_name=1)
